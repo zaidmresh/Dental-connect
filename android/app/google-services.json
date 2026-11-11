@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "471890487399",
+    "firebase_url": "https://zaidmresh-983cc-default-rtdb.firebaseio.com",
+    "project_id": "zaidmresh-983cc",
+    "storage_bucket": "zaidmresh-983cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471890487399:android:13f9f2e3b6c892cb9c8cc2",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBumfwgn7sJZu2bCIZ87cUlH14SKy0oUqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
