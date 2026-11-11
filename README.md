@@ -1,61 +1,69 @@
 # 🦷 Dental Connect
 
-### Connecting Patients with Dental Professionals
+### Connecting Dentists with Dental Laboratories
 
-## 📌 Overview
+## Overview
 
-**Dental Connect** is a digital platform designed to connect patients with dental professionals and make dental healthcare more accessible, organized, and convenient.
+Dental Connect is a Flutter-based mobile application designed to streamline communication and workflow management between dentists and dental laboratory technicians.
 
-The application aims to bridge the gap between patients and dental service providers through a simple, modern, and user-friendly experience.
+The platform enables dentists to submit laboratory work requests, attach case files, track order progress, and communicate with dental technicians through an organized digital system.
 
-## 🎯 Our Mission
+## Features
 
-To simplify access to dental healthcare by creating a reliable digital connection between patients and dental professionals.
+### For Dentists
+- Create and submit dental laboratory orders.
+- Select dental laboratories for specific cases.
+- Attach supporting case files.
+- Mark urgent laboratory requests.
+- Track order status and history.
+- View order details and updates.
 
-## 🌟 Our Vision
+### For Dental Technicians
+- Access a dedicated technician dashboard.
+- View incoming and upcoming laboratory orders.
+- Manage assigned dental cases.
+- Monitor order progress.
 
-To build a connected dental healthcare community where patients can easily access dental services and professionals can improve their reach and communication with patients.
+### General Features
+- Role-based registration and login.
+- Separate dentist and technician interfaces.
+- Order tracking and management.
+- File uploads using Firebase Storage.
+- Cloud-based data storage using Cloud Firestore.
+- Order comments and revision information.
 
-## ✨ Key Objectives
+## Technologies Used
 
-- Improve accessibility to dental healthcare services.
-- Connect patients with dental professionals.
-- Simplify communication between patients and dental service providers.
-- Provide an intuitive and user-friendly digital experience.
-- Support a more connected and efficient dental healthcare environment.
+- Flutter and Dart
+- Firebase Core
+- Cloud Firestore
+- Firebase Storage
+- Provider – State Management
+- File Picker
+- UUID
+- Intl
 
-## 👥 Target Users
+## Getting Started
 
-**Patients**
-- Individuals looking for accessible dental healthcare services.
-- People seeking a convenient way to connect with dental professionals.
+1. Install the Flutter SDK and Dart SDK.
+2. Clone the repository.
+3. Navigate to the application directory.
+4. Run `flutter pub get`.
+5. Configure Firebase for your own environment.
+6. Run `flutter run`.
 
-**Dental Professionals**
-- Dentists and dental healthcare providers.
-- Professionals looking to improve their digital presence and patient connections.
+## Project Structure
 
-## 💻 Technologies Used
+- `lib/models/` – User and order data models
+- `lib/screens/` – Application screens
+- `lib/services/` – Data management and file upload services
+- `lib/utils/` – Application constants
+- `lib/widgets/` – Reusable interface components
 
-Technology stack details will be added based on the application's implementation.
+## Project Status
 
-## 🚀 Future Improvements
-
-Potential future enhancements include:
-
-- Online appointment scheduling.
-- Dental professional profiles.
-- Search and filtering options.
-- Appointment notifications and reminders.
-- Patient reviews and ratings.
-
-## 📈 Project Status
-
-🚧 Under Development
-
-## 📄 License
-
-No license has been specified for this repository.
+Under Development
 
 ---
 
-**Dental Connect — Making Dental Care More Connected.**
+**Dental Connect — Simplifying Dental Laboratory Collaboration.**
